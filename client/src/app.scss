@@ -1,0 +1,98 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+}
+button {
+  cursor: pointer;
+}
+:root {
+  --shadow: 0 0 15px 1px rgb(0 0 0 / 9%);
+}
+.my-btn {
+  background-color: #5271ff;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+}
+.app.dark {
+  * {
+    box-shadow: none !important;
+    border-color: #444 !important;
+  }
+  background-color: black;
+  color: white;
+  a {
+    color: white;
+  }
+  .mainContent, .profileContent {
+    background-color: #333;
+  }
+  .profileInfo {
+
+    background-color: black;
+    svg {
+      color: lightgray !important;
+    }
+  }
+  .leftBar {
+
+    background-color: black;
+  }
+  .rightBar, .right-container {
+
+    background-color: #333 !important;
+  }
+  .leftBar,
+  .rightBar {
+
+    div {
+      background-color: black;
+    }
+    .subject {
+      color: #d3d3d3 !important;
+      b {
+
+        color: white !important;
+      }
+    }
+  }
+  .post {
+    background-color: black;
+    color: white;
+  }
+  .newPost {
+    background-color: black;
+  }
+  .update .container {
+    background-color: black;
+    svg {
+      color: white;
+    }
+  }
+  .navBar {
+    background-color: black;
+    h1 {
+      color: white;
+    }
+
+  }
+  input {
+    color: white !important;
+  }
+}
+
+button {
+  font-size: 13px !important;
+}
+h1 {
+  margin: 0 !important;
+  font-weight: bold !important;
+}

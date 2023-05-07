@@ -1,0 +1,58 @@
+.newPost {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px 20px;
+  box-shadow: var(--shadow);
+  .top {
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+    gap: 30px;
+
+    img {
+      border-radius: 50%;
+      object-fit: cover;
+      width: 40px;
+      height: 40px;
+    }
+    .my-img {
+      border-radius: 0;
+      width: 50px;
+      height: 50px;
+    }
+    input {
+      background-color: transparent;
+      flex: 1;
+      outline: none;
+      border: none;
+    }
+  }
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .once {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      img {
+        width: 23px;
+        height: 23px;
+      }
+
+      span {
+        color: gray;
+        font-size: 12px;
+      }
+    }
+    button {
+      border: none;
+      color: white;
+      background: #5271ff;
+      padding: 5px 7px;
+      border-radius: 3px;
+    }
+  }
+}

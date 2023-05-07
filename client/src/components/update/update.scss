@@ -1,0 +1,76 @@
+.update {
+  background-color: rgba(6, 5, 5, 0.15);
+  position: sticky;
+  width: 100%;
+  z-index: 999;
+  /* top: 0; */
+  left: 0;
+  height: calc(100vh - 67px);
+  position: sticky;
+  top: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container {
+    background-color: white;
+    width: 70%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+    .cancel {
+      position: absolute;
+      color: red;
+      top: -20px;
+      right: -20px;
+      font-size: 40px;
+      cursor: pointer;
+    }
+    h1 {
+      width: 100%;
+      text-align: center;
+      font-size: 25px;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+    .once {
+      display: flex;
+      // align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      label {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        &.file {
+          cursor: pointer;
+        }
+        svg {
+          color: black;
+        }
+      }
+      input {
+        padding: 10px 15px;
+        width: 300px;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        background-color: transparent;
+      }
+    }
+    .send {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      button {
+        padding: 10px 25px;
+        width: fit-content;
+      }
+    }
+  }
+}

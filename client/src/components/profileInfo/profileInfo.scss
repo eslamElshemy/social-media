@@ -1,0 +1,87 @@
+
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  padding-bottom: 50px;
+  .mine {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+  &>img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -100px;
+  }
+  .CmFriends {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .containermFriends {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px 20px 0 20px ;
+    align-items: center;
+    .mFriends {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 122.9px;
+      img {
+        margin: 0;
+      }
+      span {
+        color: black;
+      }
+    }
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    & > svg {
+      color: #444141;
+      font-size: 32px;
+    }
+    .sm-icon {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      svg {
+        color: #444141;
+        font-size: 20px;
+      }
+      .inner {
+        display: flex;
+        align-items: center;
+
+        span {
+          color: gray;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  button {
+    padding: 8px 16px;
+    &.alreadyFollowed {
+      background-color: gray;
+    }
+  }
+}
